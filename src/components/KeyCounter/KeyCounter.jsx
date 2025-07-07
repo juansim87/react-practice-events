@@ -7,7 +7,8 @@ export const KeyCounter = () => {
     const [key, setKey] = useState("");
 
 const handleKeyDown = (event) => {
-    setCounter(counter + 1)
+    
+    setCounter(prev => prev + 1)
     setKey(event.key);
 
 }
