@@ -1,6 +1,7 @@
 
 import './App.css'
 import { ClickCounter } from './components/ClickCounter/ClickCounter'
+import { CustomSelect } from './components/CustomSelect/CustomSelect'
 import { DoubleClickCounter } from './components/DoubleClickCounter/DoubleClickCounter'
 import { ErrorImage } from './components/ErrorImage/ErrorImage'
 import { FocusInput } from './components/FocusInput/FocusInput'
@@ -31,6 +32,7 @@ function App() {
     <ErrorImage/>
     {/* <ScrollLogger/> */}
     <StateCheckBox/>
+    <CustomSelect/>
     </>
   )
 }

@@ -14,7 +14,7 @@ const handleCheck = (event) => {
     <div>
     <h2>Caja de check dinámica</h2>
       <input type="checkbox" id='checkbox' onChange={handleCheck}/>
-      <label for="checkbox" className={check ? "accepted" : "denied"}>{check ? "Activado" : "Desactivado"}</label>
+      <label htmlFor="checkbox" className={check ? "accepted" : "denied"}>{check ? "Activado" : "Desactivado"}</label>
     </div>
   )
 }
