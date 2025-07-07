@@ -8,6 +8,7 @@ import { HoverBox } from './components/HoverBox/HoverBox'
 import { InputMirror } from './components/InputMirror/InputMirror'
 import { KeyCounter } from './components/KeyCounter/KeyCounter'
 import { LoginForm } from './components/LoginForm/LoginForm'
+import { ScrollLogger } from './components/ScrollLoger/ScrollLogger'
 import { ShowHideButton } from './components/ShowHideButton/ShowHideButton'
 import { SubmitForm } from './components/SubmitForm/SubmitForm'
 
@@ -27,6 +28,7 @@ function App() {
     <FocusInput/>
     <SubmitForm/>
     <ErrorImage/>
+    <ScrollLogger/>
     </>
   )
 }

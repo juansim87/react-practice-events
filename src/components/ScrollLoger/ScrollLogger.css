@@ -1,0 +1,7 @@
+.large-box {
+    width: 200px;
+    height: 4000px;
+    overflow-y: scroll;
+    border: 2px #000 solid;
+    background-color: rgba(134, 67, 19, 0.599);
+}
