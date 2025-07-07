@@ -1,0 +1,14 @@
+.focus-input {
+    
+}
+
+.no-focus {
+    background-color: bisque;
+
+}
+
+.focus {
+    background-color: rgba(32, 22, 168, 0.73);
+    color: #fff;
+    border: 2px #000 solid;
+}
