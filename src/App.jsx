@@ -8,6 +8,7 @@ import { InputMirror } from './components/InputMirror/InputMirror'
 import { KeyCounter } from './components/KeyCounter/KeyCounter'
 import { LoginForm } from './components/LoginForm/LoginForm'
 import { ShowHideButton } from './components/ShowHideButton/ShowHideButton'
+import { SubmitForm } from './components/SubmitForm/SubmitForm'
 
 function App() {
   
@@ -23,6 +24,7 @@ function App() {
     <HoverBox/>
     <KeyCounter/>
     <FocusInput/>
+    <SubmitForm/>
     </>
   )
 }
