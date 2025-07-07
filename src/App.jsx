@@ -3,6 +3,7 @@ import './App.css'
 import { ClickCounter } from './components/ClickCounter/ClickCounter'
 import { InputMirror } from './components/InputMirror/InputMirror'
 import { LoginForm } from './components/LoginForm/LoginForm'
+import { ShowHideButton } from './components/ShowHideButton/ShowHideButton'
 
 function App() {
   
@@ -13,6 +14,7 @@ function App() {
     <ClickCounter/>
     <InputMirror/>
     <LoginForm/>
+    <ShowHideButton/>
     </>
   )
 }
