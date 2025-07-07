@@ -1,0 +1,13 @@
+.hover-box {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black
+}
+
+.not-active {
+    background-color: rgba(255, 255, 0, 0.727);
+}
+
+.active {
+    background-color: rgba(140, 22, 161, 0.595)
+}
