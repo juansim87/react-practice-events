@@ -10,6 +10,7 @@ import { HoverBox } from './components/HoverBox/HoverBox'
 import { InputMirror } from './components/InputMirror/InputMirror'
 import { KeyCounter } from './components/KeyCounter/KeyCounter'
 import { LoginForm } from './components/LoginForm/LoginForm'
+import { ParamButton } from './components/ParamButton/ParamButton'
 import { ScrollLogger } from './components/ScrollLoger/ScrollLogger'
 import { ShowHideButton } from './components/ShowHideButton/ShowHideButton'
 import { StateCheckBox } from './components/StateCheckbox/StateCheckbox'
@@ -35,6 +36,7 @@ function App() {
     <StateCheckBox/>
     <CustomSelect/>
     <EditText/>
+    <ParamButton/>
     </>
   )
 }
