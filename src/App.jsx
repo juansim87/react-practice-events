@@ -3,6 +3,7 @@ import './App.css'
 import { ClickCounter } from './components/ClickCounter/ClickCounter'
 import { CustomSelect } from './components/CustomSelect/CustomSelect'
 import { DoubleClickCounter } from './components/DoubleClickCounter/DoubleClickCounter'
+import { EditText } from './components/EditText/EditText'
 import { ErrorImage } from './components/ErrorImage/ErrorImage'
 import { FocusInput } from './components/FocusInput/FocusInput'
 import { HoverBox } from './components/HoverBox/HoverBox'
@@ -33,6 +34,7 @@ function App() {
     {/* <ScrollLogger/> */}
     <StateCheckBox/>
     <CustomSelect/>
+    <EditText/>
     </>
   )
 }

@@ -11,7 +11,7 @@ export const CustomSelect = () => {
 		<div>
 			<h2>Selector personalizado</h2>
 			<select onChange={handleSelect}>
-				<option defaultValue={""}>Elige a tu Pokemon inicial</option>
+				<option defaultValue={"none"}>Elige a tu Pokemon inicial</option>
 				<option value={"bulbasaur"} style={{ color: "green" }}>
 					Bulbasaur
 				</option>
@@ -35,7 +35,7 @@ export const CustomSelect = () => {
 							: "black",
 				}}
 			>
-				{selection !== ""
+				{selection !== "none"
 					? `Tu Pokémon inicial es: ${selection.charAt(0).toUpperCase() + selection.slice(1)}`
 					: "Elige tu Pokémon inicial"}
 			</p>
